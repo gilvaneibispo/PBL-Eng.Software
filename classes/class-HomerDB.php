@@ -5,7 +5,7 @@
  * @package TutsupMVC
  * @since 0.1
  */
-class TutsupDB
+class HomerDB
 {
 	/** DB properties */
 	public $host      = 'localhost', // Host da base de dados 

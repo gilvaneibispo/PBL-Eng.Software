@@ -72,7 +72,7 @@ class MainController extends UserLogin
 	public function __construct ( $parametros = array() ) {
 	
 		// Instancia do DB
-		$this->db = new TutsupDB();
+		$this->db = new HomerDB();
 		
 		// Phpass
 		$this->phpass = new PasswordHash(8, false);
